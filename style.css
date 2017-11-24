@@ -1,0 +1,32 @@
+body{
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	background: #fcae1b url("Assets/background.svg") no-repeat center bottom;
+	display: flex;
+	flex-flow: row wrap;
+}
+.cabecalho{
+	width: 32%;
+	height: 100vh;
+	background-color: #000;
+}
+.resultadoFiltro{
+	width: 68%;
+	height: 100vh;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+.fotos{
+	width: 30%;
+	height: 23%;
+	padding: 5px;
+}
+.fotos-maiores{
+	width: 30%;
+	height: 25%;
+	padding: 5px;
+}
