@@ -1,3 +1,10 @@
+*,
+*:after,
+*:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
 	width: 100%;
 	min-height: 100vh;
@@ -9,7 +16,6 @@ body{
 .cabecalho{
 	width: 32%;
 	height: 100vh;
-	background-color: #000;
 }
 .resultadoFiltro{
 	width: 68%;
@@ -22,11 +28,31 @@ body{
 }
 .fotos{
 	width: 30%;
-	height: 23%;
+	height: 22%;
 	padding: 5px;
+	fill: solid #f26522;
+	opacity: .6;
 }
 .fotos-maiores{
 	width: 30%;
-	height: 25%;
+	height: 27%;
 	padding: 5px;
+	fill: solid #f26522;
+	opacity: .6;
+}
+.navegador{
+	width: 40%;
+	height: 0vh;
+}
+.sessao{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
+	background:#fff;
+	border-radius: 20px;
+	height: 12vh;
+	width: 60%;
+}
+.text{
+	font-size: 20px;
 }
